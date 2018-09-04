@@ -1,0 +1,40 @@
+@import "common.scss";
+@import "minxin.scss";
+* {
+    color: #000;
+}
+
+header {
+    widows: 100%;
+    height: pxTorem(80px);
+    @include box_flex;
+    flex-wrap: wrap;
+    h1 {
+        width: 100%;
+        color: palevioletred;
+        text-align: center;
+        height: pxTorem(40px);
+        line-height: pxTorem(40px);
+    }
+    .list {
+        width: 100%;
+        height: pxTorem(35px);
+        overflow: hidden;
+        ul {
+            width: pxTorem(500px);
+            @include box_flex;
+            li {
+                padding: 0 pxTorem(8px);
+                flex-shrink: 0;
+                a {
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+
+.active {
+    color: palevioletred;
+    border-bottom: 2px solid palevioletred;
+}
