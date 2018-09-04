@@ -8,3 +8,6 @@ gulp.task("sass", function() {
         .pipe(minCss())
         .pipe(gulp.dest("./src/css"));
 });
+gulp.task('watch', function() {
+    return gulp.watch('./src/scss/style.scss', gulp.series('sass'));
+})
