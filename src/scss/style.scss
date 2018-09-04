@@ -1,0 +1,111 @@
+@import "minxin.scss";
+@import "common.scss";
+.wrapper {
+    width: 100%;
+    height: 100%;
+    @include box-flex;
+    flex-direction: column;
+    background: #eee;
+}
+
+section {
+    flex: 1;
+    overflow: hidden;
+}
+
+.tit {
+    width: 100%;
+    height: pxTorem(25px);
+    text-align: center;
+    line-height: pxTorem(25px);
+    font-size: pxTorem(12px);
+    color: #333;
+}
+
+.better {
+    width: 100%;
+    height: pxTorem(400px);
+    overflow: hidden;
+    .list {
+        width: 100%;
+        height: auto;
+        @include box-flex;
+        flex-wrap: wrap;
+        @include justify(space-between);
+        dl {
+            width: 49%;
+            height: auto;
+            background: #fff;
+            flex-direction: column;
+            margin-top: pxTorem(5px);
+            dt {
+                flex: 7.5;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            dd {
+                flex: 2.5;
+                padding: 0 pxTorem(7px);
+                p:nth-of-type(1) {
+                    @include box-flex;
+                    @include align;
+                    line-height: 2;
+                    color: #333;
+                    font-size: pxTorem(12px);
+                    span {
+                        width: pxTorem(30px);
+                        height: pxTorem(15px);
+                        border: pxTorem(1px) solid #ccc;
+                        line-height: 2;
+                        @include box-flex;
+                        @include justify;
+                        @include align;
+                        margin: 0 pxTorem(5px);
+                        i.icon {
+                            color: #ccc;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+                p:nth-of-type(2) {
+                    @include box-flex;
+                    @include justify(space-between);
+                    @include align;
+                    b {
+                        font-size: pxTorem(10px);
+                        color: red;
+                        margin: 0 pxTorem(5px);
+                        span:nth-of-type(1) {
+                            font-size: pxTorem(14px);
+                            font-weight: 800;
+                        }
+                        span:nth-of-type(2) {
+                            font-size: pxTorem(10px);
+                            text-decoration: line-through;
+                            color: #ccc;
+                            margin: 0 pxTorem(5px);
+                        }
+                    }
+                    em {
+                        font-size: pxTorem(12px);
+                        color: #ccc;
+                        border: pxTorem(1px) solid #ccc;
+                        padding: pxTorem(1px) pxTorem(3px);
+                    }
+                }
+                p:nth-of-type(3) {
+                    @include box-flex;
+                    @include justify(space-between);
+                    @include align;
+                    line-height: 2;
+                    span {
+                        color: #ccc;
+                        font-size: pxTorem(13px)
+                    }
+                }
+            }
+        }
+    }
+}

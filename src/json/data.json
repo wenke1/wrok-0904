@@ -1,0 +1,54 @@
+[{
+        "img": "./img/1.jpg",
+        "new_prc": 1.9,
+        "old_prc": "￥4.9",
+        "sale": "劵减3元",
+        "name": "苹果数据线",
+        "time": "2天"
+    },
+    {
+        "img": "./img/1.jpg",
+        "new_prc": 9.9,
+        "old_prc": "￥64.9",
+        "sale": "劵减55元",
+        "name": "纤密码减肥胶囊",
+        "time": "16小时"
+    },
+    {
+        "img": "./img/1.jpg",
+        "new_prc": 4.9,
+        "old_prc": "￥19.9",
+        "sale": "劵减15元",
+        "name": "迷你小电风扇",
+        "time": "3天"
+    }, {
+        "img": "./img/1.jpg",
+        "new_prc": 58.9,
+        "old_prc": "￥108.9",
+        "sale": "劵减50元",
+        "name": "照相机",
+        "time": "6小时"
+    },
+    {
+        "img": "./img/1.jpg",
+        "new_prc": 4.9,
+        "old_prc": "￥19.9",
+        "sale": "劵减15元",
+        "name": "迷你小电风扇",
+        "time": "3天"
+    }, {
+        "img": "./img/1.jpg",
+        "new_prc": 58.9,
+        "old_prc": "￥108.9",
+        "sale": "劵减50元",
+        "name": "照相机",
+        "time": "6小时"
+    }, {
+        "img": "./img/1.jpg",
+        "new_prc": 58.9,
+        "old_prc": "￥108.9",
+        "sale": "劵减50元",
+        "name": "照相机",
+        "time": "6小时"
+    }
+]
